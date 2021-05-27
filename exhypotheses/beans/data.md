@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data
-parent: beans
+parent: Dry Beans
 nav_order: 1
 custom_js:
 - latex
