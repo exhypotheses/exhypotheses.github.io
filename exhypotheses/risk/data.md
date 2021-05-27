@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data
-parent: risk
+parent: Credit Risk
 nav_order: 1
 custom_js:
 - latex
