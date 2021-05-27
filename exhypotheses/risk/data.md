@@ -22,5 +22,34 @@ custom_js:
 
 
 ## Introduction
+A brief introduction to the data sheets sections herein.
 
-The page of data sheets.
+<br>
+
+## Metadata
+This section focuses on the data source, licence, # of instances, etc
+
+<br>
+
+## Definitions
+
+<table style="width: 65%">
+  {% for row in site.data.risk.definitions %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+</table>
+
+<br>
+
+## Sample
+A preview
