@@ -2,6 +2,7 @@
 layout: default
 title: Data
 parent: Credit Risk
+grand_parent: Projects
 nav_order: 1
 custom_js:
 - latex
