@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Infection Mitigation
-nav_order: 5
+parent: Projects
+nav_order: 6
 has_children: true
 permalink: /exhypotheses/infection
 custom_css:
