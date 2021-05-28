@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Credit Risk
-nav_order: 3
+parent: Projects
+nav_order: 4
 has_children: true
 permalink: /exhypotheses/risk
 custom_css:
