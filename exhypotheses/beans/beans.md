@@ -4,7 +4,7 @@ title: Dry Beans
 parent: Projects
 nav_order: 3
 has_children: true
-permalink: /exhypotheses/beans
+permalink: /exhypotheses/beans/beans
 custom_css:
 - tooltips
 ---
