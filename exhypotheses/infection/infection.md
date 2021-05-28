@@ -4,7 +4,6 @@ title: Infection Mitigation
 parent: Projects
 nav_order: 6
 has_children: true
-permalink: /exhypotheses/infection
 custom_css:
 - tooltips
 ---
