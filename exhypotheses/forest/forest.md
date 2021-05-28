@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Forest Cover Type
-nav_order: 4
+parent: Projects
+nav_order: 5
 has_children: true
 permalink: /exhypotheses/forest
 custom_css:
