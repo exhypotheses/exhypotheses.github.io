@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Dry Beans
-nav_order: 2
+parent: Projects
+nav_order: 3
 has_children: true
 permalink: /exhypotheses/beans
 custom_css:
