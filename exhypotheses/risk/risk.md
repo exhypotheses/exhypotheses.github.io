@@ -4,7 +4,6 @@ title: Credit Risk
 parent: Projects
 nav_order: 4
 has_children: true
-permalink: /exhypotheses/risk
 custom_css:
 - tooltips
 ---
