@@ -34,7 +34,7 @@ This section focuses on the data source, licence, # of instances, etc
 
 ## Definitions
 
-<table style="width: 65%;font-size: small;text-align: left;">
+<table style="width: 65%;font-size: x-small;text-align: left;">
   {% for row in site.data.risk.definitions %}
     {% if forloop.first %}
     <tr>
