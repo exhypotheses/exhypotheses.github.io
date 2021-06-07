@@ -8,7 +8,7 @@ custom_js:
 - latex
 ---
 
-# Querying
+# Data
 {: .no_toc }
 
 <br>
