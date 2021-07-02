@@ -34,6 +34,10 @@ This section focuses on the data source, licence, # of instances, etc
 
 ## Definitions
 
+None of the fields is nullable.
+
+<br>
+
 <table style="width: 65%;font-size: 65%;text-align: left;">
   {% for row in site.data.risk.definitions %}
     {% if forloop.first %}
