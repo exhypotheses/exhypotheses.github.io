@@ -1,5 +1,5 @@
 "variable","variable type","data type","unit of measure","description"
-"e_chq_acc_status","categorical","string","deutsche mark","Status of existing checking account <ul><li>$A11 < DM$</li><li>$0 \le A12 < 200 DM$</li><li>$A13 \ge 200 DM$ / salary assignments for at least 1 year</li><li>$A14$: no checking ccount</li></ul>"
+"e_chq_acc_status","categorical","string","deutsche mark","Status of existing checking account <ul><li>$A11 < DM$</li><li>$0 \le A12 < 200 DM$</li><li>$A13 \ge 200 DM$ / salary assignments for at least 1 year</li><li>$A14$: no checking account</li></ul>"
 "duration_months","numerical","int","months","Duration in months"
 "credit_history","categorical","string","$\mathcal{1}$","Credit history"
 "purpose","categorical","string","$\mathcal{1}$","Purpose"
