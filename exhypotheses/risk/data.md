@@ -23,20 +23,22 @@ custom_js:
 
 
 ## Introduction
+<br>
 A brief introduction to the data sheets sections herein.
 
 <br>
+<br>
 
 ## Metadata
+<br>
 This section focuses on the data source, licence, # of instances, etc
 
 <br>
+<br>
 
 ## Definitions
-
-None of the fields is nullable.
-
 <br>
+None of the fields is nullable.
 
 <table style="width: 65%;font-size: 65%;text-align: left;">
   {% for row in site.data.risk.definitions %}
@@ -55,6 +57,12 @@ None of the fields is nullable.
 </table>
 
 <br>
+<br>
 
 ## Sample
 A preview
+
+<br>
+<br>
+<br>
+<br>
