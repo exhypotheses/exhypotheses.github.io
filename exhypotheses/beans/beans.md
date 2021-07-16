@@ -10,6 +10,11 @@ custom_css:
 
 # Dry Beans
 
-A [dry beans](https://archive.ics.uci.edu/ml/datasets/Dry+Bean+Dataset) classification model ...
+A [dry beans](https://archive.ics.uci.edu/ml/datasets/Dry+Bean+Dataset) seeds classification model.
 
 {: .fs-6 .fw-300 }
+
+<br>
+<br>
+<br>
+<br>
