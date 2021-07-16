@@ -10,8 +10,6 @@ custom_css:
 
 # Infection Mitigation
 
-A co-varying trends forecasting model ...
+A co-varying trends forecasting model.
 
 {: .fs-6 .fw-300 }
-
-<br>
