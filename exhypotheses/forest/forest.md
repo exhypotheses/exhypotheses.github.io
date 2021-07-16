@@ -10,8 +10,6 @@ custom_css:
 
 # Forest Cover Type
 
-A [forest cover type](https://archive.ics.uci.edu/ml/datasets/Covertype) classification model ...
+A [forest cover type](https://archive.ics.uci.edu/ml/datasets/Covertype) classification model.
 
 {: .fs-6 .fw-300 }
-
-<br>
