@@ -15,6 +15,3 @@ A [dry beans](https://archive.ics.uci.edu/ml/datasets/Dry+Bean+Dataset) seeds cl
 {: .fs-6 .fw-300 }
 
 <br>
-<br>
-<br>
-<br>
