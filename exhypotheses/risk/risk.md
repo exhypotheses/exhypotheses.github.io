@@ -13,5 +13,3 @@ custom_css:
 A [credit risks](https://archive.ics.uci.edu/ml/datasets/Statlog+%28German+Credit+Data%29) classification model.
 
 {: .fs-6 .fw-300 }
-
-<br>
