@@ -24,7 +24,7 @@ custom_js:
 
 ## Introduction
 <br>
-A brief introduction to the data sheets sections herein.
+The data sheets.
 
 <br>
 <br>
@@ -60,7 +60,6 @@ None of the fields is nullable.
 <br>
 
 ## Sample
-A preview
 
 <br>
 <br>
