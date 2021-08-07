@@ -33,6 +33,7 @@ graphs_js:
 
 It has been noted in a number of research papers [ref. identifiers] ...
 
+<script type="text/javascript" src="\_includes/risk/roc.js"></script>
 <div id="container" style="height: 350px; width: 300px; margin: 0 auto"></div>
 
 <br>
