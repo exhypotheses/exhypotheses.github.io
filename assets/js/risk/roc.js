@@ -1,6 +1,6 @@
 var Highcharts;
-var url = "https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/metrics.json";
-var project = "The Loan Risk Problem";
+var url = document.getElementById("roc").getAttribute("url");
+var project = document.getElementById("roc").getAttribute("project");
 
 Highcharts.getJSON(url, function (calculations){
 
