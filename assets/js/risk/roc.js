@@ -1,6 +1,5 @@
 var Highcharts;
 var url = "https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/metrics.json";
-var project = "The Loan Risk Problem";
 
 $.getJSON(url, function (calculations){
 
@@ -46,7 +45,7 @@ $.getJSON(url, function (calculations){
         },
 
         title: {
-            text: '\n' + project + '\n'
+            text: '\n \n'
         },
         subtitle: {
             text: 'Receiver Operating Characteristics<br>TPR/FPR Curve'
