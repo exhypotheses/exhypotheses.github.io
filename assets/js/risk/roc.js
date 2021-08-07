@@ -30,14 +30,14 @@ $.getJSON(url, function (calculations){
     }
 
     // Graphing
-    Highcharts.setOptions({
+    $.setOptions({
         lang: {
             thousandsSep: ","
         }
     });
 
 
-    Highcharts.chart("container", {
+    $.chart("container", {
 
         chart: {
             type: "line",
