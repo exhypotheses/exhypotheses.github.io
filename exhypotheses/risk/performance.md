@@ -12,8 +12,6 @@ external_js:
 - https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
 custom_js:
 - latex
-graphs_js:
-- risk/roc
 ---
 
 # Performance
