@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Credit Risk
+title: Risk
 parent: Projects
 nav_order: 4
 has_children: true
