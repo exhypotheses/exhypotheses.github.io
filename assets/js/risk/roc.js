@@ -1,7 +1,7 @@
 var Highcharts;
 var url = "https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/metrics.json";
 
-$.getJSON(url, function (calculations){
+Highcharts.getJSON(url, function (calculations){
 
     var auc = [];
 
@@ -29,14 +29,14 @@ $.getJSON(url, function (calculations){
     }
 
     // Graphing
-    $.setOptions({
+    Highcharts.setOptions({
         lang: {
             thousandsSep: ","
         }
     });
 
 
-    $.chart("container", {
+    Highcharts.chart("container", {
 
         chart: {
             type: "line",
