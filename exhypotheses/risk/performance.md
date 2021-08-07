@@ -21,13 +21,18 @@ custom_js:
 
 ---
 
-<h2>Model Performance</h2>
+## Model Performance
 
 It has been noted in a number of research papers [ref. PAI, etc] that there are ...
 
 <br>
 
-<h2>Disaggregated Performance</h2>
+## Disaggregated Performance
 
 The target variable, reasonable [risk], has 2 unique elements: 1 (reasonable), 0 (unreasonable).  The
 performance of the model w.r.t. each element is outlined in the ...
+
+<br>
+<br>
+<br>
+<br>
