@@ -13,7 +13,7 @@ external_js:
 custom_js:
 - latex
 graphs_js:
-- risk/roc.js
+- risk/roc
 ---
 
 # Performance
