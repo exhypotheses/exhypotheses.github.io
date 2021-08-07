@@ -2,11 +2,13 @@
 layout: default
 ---
 
-{{ content }}
+
 
 {% for js_file in page.graphs_js %}
   <script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ js_file }}.js"></script>
 {% endfor %}
+
+{{ content }}
 
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/highcharts-more.js"></script>
