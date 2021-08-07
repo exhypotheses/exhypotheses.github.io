@@ -23,7 +23,7 @@ custom_js:
 
 <h2>Model Performance</h2>
 
-It has been noted in a number of researh papers [ref. PAI, etc] that there are ...
+It has been noted in a number of research papers [ref. PAI, etc] that there are ...
 
 <br>
 
