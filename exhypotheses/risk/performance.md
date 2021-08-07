@@ -5,11 +5,11 @@ parent: Risk
 grand_parent: Projects
 nav_order: 2
 external_css:
-- https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+- https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min
 custom_css:
 - tooltips
 external_js:
-- https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
+- https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min
 custom_js:
 - latex
 ---
