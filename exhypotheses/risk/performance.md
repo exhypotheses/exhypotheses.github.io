@@ -13,7 +13,7 @@ external_js:
 custom_js:
 - latex
 graphs_js:
-- [roc, risk/roc, https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/metrics.json, 'The Loan Risk Problem', '']
+- risk/roc
 ---
 
 # Performance
