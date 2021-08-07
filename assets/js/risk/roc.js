@@ -1,7 +1,7 @@
 var Highcharts;
 var url = "https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/metrics.json";
 
-Highcharts.getJSON(url, function (calculations){
+jQuery.getJSON(url, function (calculations){
 
     var auc = [];
 
