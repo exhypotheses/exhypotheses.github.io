@@ -5,13 +5,8 @@ layout: default
 {{ content }}
 
 {% for js_file in page.graphs_js %}
-  <script type="text/javascript"
-    id="{{ js_file[0] }}"
-    src="{{ site.baseurl }}/assets/js/{{ js_file[1] }}.js"
-    url="{{ js_file[2] }}"
-    project="{{ js_file[3] }}"
-    variable="{{ js_file[4] }}" type="text/javascript"></script>
- {% endfor %}
+  <script type="text/javascript" src="{{ site.baseurl }}/_includes/{{ js_file }}.js" async></script>
+{% endfor %}
 
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/highcharts-more.js"></script>
