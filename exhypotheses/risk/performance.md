@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Performance
 parent: Risk
 grand_parent: Projects
@@ -21,13 +21,14 @@ custom_js:
 
 ---
 
-## Model Performance
+## Of Model
 
 It has been noted in a number of research papers [ref. PAI, etc] that there are ...
 
 <br>
+<br>
 
-## Disaggregated Performance
+## Of Disaggregates
 
 The target variable, reasonable [risk], has 2 unique elements: 1 (reasonable), 0 (unreasonable).  The
 performance of the model w.r.t. each element is outlined in the ...
