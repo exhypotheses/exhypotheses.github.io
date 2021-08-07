@@ -28,7 +28,7 @@ $.getJSON(url, function(calculations){
 
 
     // Container
-    Highcharts.chart("container0001", {
+    $.chart("container0001", {
 
         chart: {
             polar: true,
