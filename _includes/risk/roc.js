@@ -1,12 +1,12 @@
 var Highcharts;
-var url = document.getElementById("roc").getAttribute("url");
-var project = document.getElementById("roc").getAttribute("project");
+var url = "https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/metrics.json";
+var project = "The Loan Risk Problem";
 
 $.getJSON(url, function (calculations){
 
     var auc = [];
 
-    
+
     for (var i = 0; i < (calculations.length - 1); i += 1) {
 
         if (calculations[i].name.match("sensitivity")) {
