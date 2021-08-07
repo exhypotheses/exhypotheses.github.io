@@ -31,7 +31,7 @@ graphs_js:
 
 ### Of Model
 
-It has been noted in a number of research papers [ref. PAI, etc] that there are ...
+It has been noted in a number of research papers [ref. identifiers] that there are ...
 
 <div id="container" style="height: 350px; width: 300px; margin: 0 auto"></div>
 
