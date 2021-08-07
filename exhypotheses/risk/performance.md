@@ -4,10 +4,16 @@ title: Performance
 parent: Risk
 grand_parent: Projects
 nav_order: 2
-graphs_js:
-- [roc, risk/roc.js, https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/metrics.json, 'The Loan Risk Problem', '']
+external_css:
+- https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+custom_css:
+- tooltips
+external_js:
+- https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
 custom_js:
 - latex
+graphs_js:
+- [roc, risk/roc, https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/metrics.json, 'The Loan Risk Problem', '']
 ---
 
 # Performance
