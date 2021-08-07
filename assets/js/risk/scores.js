@@ -3,7 +3,6 @@ var optionSelected;
 var seriesOptions = [];
 
 var url = "https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/scores.json"
-var project = "The Loan Risk Problem"
 
 
 $.getJSON(url, function(calculations){
@@ -37,7 +36,7 @@ $.getJSON(url, function(calculations){
         },
 
         title: {
-            text: '\n' + project + '\n',
+            text: '\n \n',
             x: 0
 
         },
