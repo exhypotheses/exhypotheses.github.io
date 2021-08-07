@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data
-parent: Credit Risk
+parent: Risk
 grand_parent: Projects
 nav_order: 1
 custom_js:
@@ -24,7 +24,9 @@ custom_js:
 
 ## Introduction
 <br>
-The data sheets.
+<div>
+      <p>The $p_{value}$ of each categorical field & target hypotheses ... $\chi^{2}$</p>
+</div>
 
 <br>
 <br>
