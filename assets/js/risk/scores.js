@@ -5,7 +5,7 @@ var seriesOptions = [];
 var url = "https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/scores.json"
 
 
-$.getJSON(url, function(calculations){
+Highcharts.getJSON(url, function(calculations){
 
     // https://api.highcharts.com/highstock/tooltip.pointFormat
     // https://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/highcharts/demo/bubble
@@ -27,7 +27,7 @@ $.getJSON(url, function(calculations){
 
 
     // Container
-    $.chart("container0001", {
+    Highcharts.chart("container0001", {
 
         chart: {
             polar: true,
