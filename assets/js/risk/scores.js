@@ -5,7 +5,7 @@ var seriesOptions = [];
 var url = "https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/scores.json"
 
 
-Highcharts.getJSON(url, function(calculations){
+jQuery.getJSON(url, function(calculations){
 
     // https://api.highcharts.com/highstock/tooltip.pointFormat
     // https://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/highcharts/demo/bubble
