@@ -31,7 +31,11 @@ custom_js:
 
 It has been noted in a number of research papers [ref. identifiers] ...
 
-<script type="text/javascript" src="{{ site.baseurl }}/assets/js/risk/roc.js"></script>
+<script id="roc"
+  url="https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/metrics.json"
+  project="The Loan Risk Problem"
+  src="{{ site.baseurl }}/assets/js/risk/roc.js"
+  type="text/javascript"></script>
 <div id="container" style="height: 350px; width: 300px; margin: 0 auto"></div>
 
 <br>
