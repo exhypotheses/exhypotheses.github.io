@@ -4,10 +4,6 @@ layout: default
 
 {{ content }}
 
-{% for js_file in page.graphs_js %}
-  <script type="text/javascript" src="{{ site.baseurl }}/_includes/{{ js_file }}.js" async></script>
-{% endfor %}
-
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/highcharts-more.js"></script>
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
