@@ -58,8 +58,8 @@ performance of the model w.r.t. each element is outlined in the ...
 <br>
 
 
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/highcharts-more.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
-<script src="https://code.highcharts.com/modules/export-data.js"></script>
-<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<script src="https://code.highcharts.com/highcharts.js" crossorigin="anonymous"></script>
+<script src="https://code.highcharts.com/highcharts-more.js" crossorigin="anonymous"></script>
+<script src="https://code.highcharts.com/modules/exporting.js" crossorigin="anonymous"></script>
+<script src="https://code.highcharts.com/modules/export-data.js" crossorigin="anonymous"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js" crossorigin="anonymous"></script>
