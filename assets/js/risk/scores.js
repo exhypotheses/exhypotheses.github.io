@@ -6,7 +6,7 @@ var url = "https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse
 var project = "The Loan Risk Problem"
 
 
-Highcharts.getJSON(url, function(calculations){
+$.getJSON(url, function(calculations){
 
     // https://api.highcharts.com/highstock/tooltip.pointFormat
     // https://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/highcharts/demo/bubble
