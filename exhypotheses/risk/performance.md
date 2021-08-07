@@ -12,8 +12,6 @@ external_js:
 - https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
 custom_js:
 - latex
-graphs_js:
-- risk/roc
 ---
 
 # Performance
@@ -33,6 +31,7 @@ graphs_js:
 
 It has been noted in a number of research papers [ref. identifiers] ...
 
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/risk/roc.js"></script>
 <div id="container" style="height: 350px; width: 300px; margin: 0 auto"></div>
 
 <br>
