@@ -31,7 +31,9 @@ custom_js:
 
 It has been noted in a number of research papers [ref. identifiers] ...
 
-<script src="{{ site.baseurl }}/assets/js/risk/roc.js" type="text/javascript"></script>
+<script id="roc"
+  url="https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/metrics.json"
+  src="{{ site.baseurl }}/assets/js/risk/roc.js" type="text/javascript"></script>
 <div id="container" style="height: 350px; width: 300px; margin: 0 auto"></div>
 
 <br>
@@ -41,7 +43,9 @@ It has been noted in a number of research papers [ref. identifiers] ...
 
 The model metrics at the optimal threshold are illustrated by the polygon graph.  It ...
 
-<script src="{{ site.baseurl }}/assets/js/risk/scores.js" type="text/javascript"></script>
+<script id="scores"
+  url="https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/scores.json"
+  src="{{ site.baseurl }}/assets/js/risk/scores.js" type="text/javascript"></script>
 <div id="container0001" style="height: 390px; margin: 0 auto"></div>
 
 <br>
