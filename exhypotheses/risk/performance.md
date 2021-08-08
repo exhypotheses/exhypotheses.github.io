@@ -46,7 +46,7 @@ The model metrics at the optimal threshold are illustrated by the polygon graph.
 <script id="scores"
   url="https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/scores.json"
   src="{{ site.baseurl }}/assets/js/risk/scores.js" type="text/javascript"></script>
-<div id="container0001" style="height: 390px; margin: 0 auto"></div>
+<div id="container0001" style="height: 400px; width: 330px; margin: 0 auto"></div>
 
 <br>
 <br>
