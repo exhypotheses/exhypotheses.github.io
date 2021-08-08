@@ -11,7 +11,7 @@ custom_css:
 # Introductory Notes
 {: .fs-9 }
 
-Audit Proposals
+Audit Pamphlets
 {: .fs-6 .fw-300 }
 
 <br>
