@@ -1,8 +1,9 @@
 var Highcharts;
 var optionSelected;
 var seriesOptions = [];
+var dropdown = $("#option_selector");
 
-var url = "https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/scores.json"
+var url = document.getElementById("scores").getAttribute("url")
 
 
 jQuery.getJSON(url, function(calculations){
@@ -15,6 +16,10 @@ jQuery.getJSON(url, function(calculations){
 
     // Categories
     var categories = calculations.categories;
+
+
+    // Model Properties: Optimal Threshold
+    var optimal = calculations.model.data[0].optimal.toFixed(2);
 
 
     // Values
@@ -32,16 +37,17 @@ jQuery.getJSON(url, function(calculations){
         chart: {
             polar: true,
             type: 'spline',
-            marginTop: 45
+            marginTop: 35
         },
 
         title: {
-            text: '\n \n',
+            text: '',
             x: 0
 
         },
         subtitle: {
-            text: 'Binary Classification Metrics<br>at optimal threshold',
+            text: 'Binary Classification Metrics<br>at optimal threshold (' + optimal + ')',
+            y: 35,
             style: {
                 // "color": "#cccccc"
             }
@@ -63,7 +69,20 @@ jQuery.getJSON(url, function(calculations){
         yAxis: {
             gridLineInterpolation: 'polygon',
             lineWidth: 0,
-            min: 0
+            min: 0,
+            max: 1,
+            tickInterval: 0.5
+        },
+
+        exporting: {
+            buttons: {
+                contextButton: {
+                    menuItems: ["viewFullscreen", "printChart", "separator",
+                        "downloadPNG", "downloadJPEG", "downloadPDF", "downloadSVG", "separator",
+                        "downloadXLS", "downloadCSV"],
+                    x: 9
+                }
+            }
         },
 
         tooltip: {
@@ -73,7 +92,7 @@ jQuery.getJSON(url, function(calculations){
 
         // https://api.highcharts.com/highcharts/pane
         pane: {
-            size: '55%'
+            size: '60%'
         },
 
         legend: {
