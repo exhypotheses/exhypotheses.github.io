@@ -43,7 +43,7 @@ This section focuses on the data source, licence, # of instances, etc
 None of the fields is nullable.
 
 <table style="width: 65%;font-size: 65%;text-align: left;">
-  {% for row in site.data.risk.definitions %}
+  {% for row in site.data.exhypotheses.risk.definitions %}
     {% if forloop.first %}
     <tr>
       {% for pair in row %}
