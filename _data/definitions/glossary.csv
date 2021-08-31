@@ -1,4 +1,4 @@
 "term","definition"
-"Precision","$\frac{tp}{tp + fp}, \quad [0 \; 1]$<br>Synonyms: <ul><li>Positive Predictive Value</li><ul>"
-"True Positive Rate","$\frac{tp}{tp + fn}, \quad [0 \; 1]$<br>Synonyms:<ul><li>Sensitivity</li><li>Recall</li></ul>"
-"True Negative Rate","$\frac{tn}{tn + fp}, \quad [0 \; 1]$<br>Synonyms:<ul><li>Specificity</li><li>Selectivity</li></ul>"
+"Precision<br>Positive Predictive Value","$\large \frac{tp}{tp + fp}, \quad [0 \; 1]$"
+"True Positive Rate<br>Sensitivity<br>Recall","$\large \frac{tp}{tp + fn}, \quad [0 \; 1]$"
+"True Negative Rate<br>Specificity<br>Selectivity","$\large \frac{tn}{tn + fp}, \quad [0 \; 1]$"
