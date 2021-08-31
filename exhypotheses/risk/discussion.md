@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Performance
+title: Discussion
 parent: Risk
 grand_parent: Projects
 nav_order: 2
@@ -14,7 +14,7 @@ custom_js:
 - latex
 ---
 
-# Performance
+# Discussion
 {: .no_toc }
 
 <br>
