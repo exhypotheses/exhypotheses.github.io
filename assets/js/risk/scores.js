@@ -22,7 +22,7 @@ jQuery.getJSON(url, function(calculations){
     var optimal = calculations.model.data[0].optimal.toFixed(2);
 
 
-    // Values
+    // Values    
     seriesOptions = [{
         name: calculations.series.desc,
         visible: true,
@@ -30,9 +30,9 @@ jQuery.getJSON(url, function(calculations){
         pointPlacement: 'on'
     }]
 
-
+            
     // Container
-    Highcharts.chart("container0001", {
+    Highcharts.chart("container", {
 
         chart: {
             polar: true,
@@ -111,10 +111,12 @@ jQuery.getJSON(url, function(calculations){
                 }
             }]
         }
-
+        
     });
 
 }).fail(function () {
     console.log("Missing");
-    $("#container0001").empty();
+    $("#container").empty();
 });
+
+
