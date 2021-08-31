@@ -22,7 +22,7 @@ Definitions of terms
 
 <br>
 
-<table style="width: 65%;font-size: 65%;text-align: left;">
+<table style="width: 55%;font-size: 65%;text-align: left;">
   {% for row in site.data.definitions.glossary %}
     {% if forloop.first %}
     <tr>
