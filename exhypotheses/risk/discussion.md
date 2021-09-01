@@ -31,7 +31,7 @@ custom_js:
 
 The loan risk model's metrics & curves
 
-<table style="width: 55%; margin-left: 100px;">
+<table style="width: 55%;">
     <tr><th style="width: 40%;"></th><th style="width: 40%;"></th></tr>
     <tr>
         <td><script id="roc"
@@ -56,7 +56,7 @@ The loan risk model's metrics & curves
 
 The metrics at various thresholds; the optimal threshold is at the intersection of precision & sensitivity (true positive rate).
 
-<table style="width: 55%; margin-left: 100px;">
+<table style="width: 55%;">
     <tr><th style="width: 35%;"></th><th style="width: 35%;"></th></tr>
     <tr>
         <td><script id="metrics"
