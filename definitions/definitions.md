@@ -25,12 +25,12 @@ Definitions of terms
 
 <dl>
   <dt>Precision</dt>
-  <dd>$\large{\frac{tp}{tp + fp}}, \quad \small{[0 \; 1]}$<br>positive predictive value</dd>
+  <dd>$\frac{tp}{tp + fp}, \quad [0 \; 1]$<br>positive predictive value</dd>
 
   <dt>True Positive Rate</dt>
-  <dd>$\large \frac{tp}{tp + fn}, \quad [0 \; 1]$<br>sensitivity, recall</dd>
+  <dd>$\frac{tp}{tp + fn}, \quad [0 \; 1]$<br>sensitivity, recall</dd>
 
   <dt>True Negative Rate</dt>
-  <dd>$\large \frac{tn}{tn + fp}, \quad [0 \; 1]$<br>specificity, selectivity</dd>
+  <dd>$\frac{tn}{tn + fp}, \quad [0 \; 1]$<br>specificity, selectivity</dd>
 
 </dl>
