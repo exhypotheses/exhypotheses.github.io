@@ -1,7 +1,7 @@
 dl {
     display: block;
-    margin-left: 10px;
-    font-size: 15px;
+    margin-left: 13px;
+    font-size: 13px;
 }
 
 
@@ -14,11 +14,11 @@ dt {
 }
 
 
-/**
+
 dd {
-    display: inline-block;
+    display: block;
+    clear: both;
     margin-left: 25px;
     margin-top: 0;
     margin-bottom:25px;
 }
-*/
