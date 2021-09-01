@@ -1,24 +1,15 @@
 dl {
     display: block;
-    margin-left: 13px;
     font-size: 13px;
 }
 
-
 dt {
     display: block;
-    clear: both;
     font-weight: bold;
     margin-top: 10px;
-    margin-left: 25px;
 }
-
-
 
 dd {
     display: block;
-    clear: both;
-    margin-left: 25px;
-    margin-top: 0;
     margin-bottom:25px;
 }
