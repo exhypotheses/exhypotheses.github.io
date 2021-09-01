@@ -22,18 +22,14 @@ Definitions of terms
 
 <br>
 
-<table style="width: 200px;font-size: 65%;text-align: left;">
-  {% for row in site.data.definitions.glossary %}
-    {% if forloop.first %}
-    <tr>
-      {% for pair in row %}
-        <th>{{ pair[0] }}</th>
-      {% endfor %}
-    </tr>
-    {% endif %}
+<dl>
+  <dt>Precision</dt>
+  <dd>$\large \frac{tp}{tp + fp}, \quad [0 \; 1]$<br>positive predictive value</dd>
 
-    {% tablerow pair in row %}
-      {{ pair[1] }}
-    {% endtablerow %}
-  {% endfor %}
-</table>
+  <dt>True Positive Rate</dt>
+  <dd>$\large \frac{tp}{tp + fn}, \quad [0 \; 1]$<br>sensitivity, recall</dd>
+
+  <dt>True Negative Rate</dt>
+  <dd>$\large \frac{tn}{tn + fp}, \quad [0 \; 1]$<br>specificity, selectivity</dd>
+
+</dl>
