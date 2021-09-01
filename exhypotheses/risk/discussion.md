@@ -32,7 +32,10 @@ custom_js:
 The loan risk model's metrics & curves
 
 <table style="width: 55%; border: 0;">
-    <tr><th style="width: 40%;"></th><th style="width: 40%;"></th></tr>
+    <colgroup>
+        <col span="1" style="width: 40%;">
+        <col span="1" style="width: 40%;">
+    </colgroup>
     <tr>
         <td><script id="roc"
             url="https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/metrics.json"
@@ -48,7 +51,9 @@ The loan risk model's metrics & curves
 <br>
 
 <table style="width: 55%; margin-left: 150px; align-content: center;">
-    <tr><th style="text-align: center;"></th></tr>        
+    <colgroup>
+        <col span="1" style="text-align: center;">
+    </colgroup>        
     <tr>
         <td><script id="scores"
             url="https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/scores.json"
@@ -62,7 +67,10 @@ The loan risk model's metrics & curves
 The metrics at various thresholds; the optimal threshold is at the intersection of precision & sensitivity (true positive rate).
 
 <table style="width: 55%;">
-    <tr><th style="width: 35%;"></th><th style="width: 35%;"></th></tr>
+    <colgroup>
+        <col span="1" style="width: 35%;">
+        <col span="1" style="width: 35%;">
+    </colgroup>
     <tr>
         <td><script id="metrics"
             url="https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/metrics.json"
