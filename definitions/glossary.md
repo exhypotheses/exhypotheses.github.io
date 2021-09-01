@@ -29,13 +29,13 @@ custom_js:
 
 <dl>
   <dt>Precision</dt>
-  <dd>$\large \frac{tp}{tp + fp}$ $, \quad [0 \; 1]$, positive predictive value</dd>
+  <dd>$\large \frac{tp}{tp + fp}$ $, \; [0 \; 1],$ positive predictive value</dd>
 
   <dt>True Positive Rate</dt>
-  <dd>$\large \frac{tp}{tp + fn}$ $, \quad [0 \; 1]$, sensitivity, recall</dd>
+  <dd>$\large \frac{tp}{tp + fn}$ $, \; [0 \; 1],$ sensitivity, recall</dd>
 
   <dt>True Negative Rate</dt>
-  <dd>$\large \frac{tn}{tn + fp}$ $, \quad [0 \; 1]$, specificity, selectivity</dd>
+  <dd>$\large \frac{tn}{tn + fp}$ $, \; [0 \; 1],$ specificity, selectivity</dd>
 </dl>
 
 <br>
