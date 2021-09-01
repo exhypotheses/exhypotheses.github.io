@@ -29,7 +29,9 @@ custom_js:
 
 ### Introduction
 
-The loan risk model's metrics & curves
+The loan risk model's curves
+
+<br>
 
 <table style="width: 55%; border: 0;">
     <colgroup>
@@ -49,6 +51,13 @@ The loan risk model's metrics & curves
 </table>
 
 <br>
+<br>
+<br>
+<br>
+
+The loan risk model's metrics
+
+<br>
 
 <table style="width: 55%; align-content: center;">
     <colgroup>
@@ -63,8 +72,13 @@ The loan risk model's metrics & curves
 </table>
 
 <br>
+<br>
+<br>
+<br>
 
 The metrics at various thresholds; the optimal threshold is at the intersection of precision & sensitivity (true positive rate).
+
+<br>
 
 <table style="width: 55%;">
     <colgroup>
@@ -83,6 +97,9 @@ The metrics at various thresholds; the optimal threshold is at the intersection 
     </tr>
 </table>
 
+<br>
+<br>
+<br>
 <br>
 
 ### Of Disaggregates
