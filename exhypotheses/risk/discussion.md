@@ -31,7 +31,7 @@ custom_js:
 
 The loan risk model's metrics & curves
 
-<table style="width: 55%;">
+<table style="width: 55%; border: 0;">
     <tr><th style="width: 40%;"></th><th style="width: 40%;"></th></tr>
     <tr>
         <td><script id="roc"
@@ -43,12 +43,17 @@ The loan risk model's metrics & curves
             src="{{ site.baseurl }}/assets/js/risk/ptc.js" type="text/javascript"></script>
             <div id="container0003" style="height: 350px; width: 300px; margin: 0 auto"></div></td>
     </tr>
+</table>
+
+<br>
+
+<table style="width: 55%; margin-left: 150px; align-content: center;">
+    <tr><th style="text-align: center;"></th></tr>        
     <tr>
         <td><script id="scores"
             url="https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/scores.json"
             src="{{ site.baseurl }}/assets/js/risk/scores.js" type="text/javascript"></script>
             <div id="container0001" style="height: 350px; width: 300px; margin: 0 auto"></div></td>
-        <td></td>
     </tr>
 </table>
 
