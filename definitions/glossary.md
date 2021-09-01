@@ -27,8 +27,6 @@ custom_js:
 
 ---
 
-<br>
-
 <dl>
   <dt>Precision</dt>
   <dd><br>$\frac{tp}{tp + fp}, \quad [0 \; 1]$<br>positive predictive value</dd>
@@ -38,7 +36,6 @@ custom_js:
 
   <dt>True Negative Rate</dt>
   <dd>$\frac{tn}{tn + fp}, \quad [0 \; 1]$<br>specificity, selectivity</dd>
-
 </dl>
 
 <br>
