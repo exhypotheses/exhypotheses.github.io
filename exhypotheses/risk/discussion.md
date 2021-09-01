@@ -27,28 +27,49 @@ custom_js:
 
 ---
 
-### Of Model
+### Introduction
 
-It has been noted in a number of research papers [ref. identifiers] ...
+The loan risk model's metrics & curves
 
-<script id="roc"
-  url="https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/metrics.json"
-  src="{{ site.baseurl }}/assets/js/risk/roc.js" type="text/javascript"></script>
-<div id="container0002" style="height: 350px; width: 300px; margin: 0 auto"></div>
+<table style="width: 55%; margin-left: 100px;">
+    <tr><th style="width: 40%;"></th><th style="width: 40%;"></th></tr>
+    <tr>
+        <td><script id="roc"
+            url="https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/metrics.json"
+            src="../assets/js/roc.js" type="text/javascript"></script>
+            <div id="container0002" style="height: 350px; width: 300px; margin: 0 auto"></div></td>
+        <td><script id="ptc"
+            url="https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/metrics.json"
+            src="../assets/js/ptc.js" type="text/javascript"></script>
+            <div id="container0003" style="height: 350px; width: 300px; margin: 0 auto"></div></td>
+    </tr>
+    <tr>
+        <td><script id="scores"
+            url="https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/scores.json"
+            src="../assets/js/scores.js" type="text/javascript"></script>
+            <div id="container0001" style="height: 350px; width: 300px; margin: 0 auto"></div></td>
+        <td></td>
+    </tr>
+</table>
 
 <br>
-<br>
 
-### At Threshold
+The metrics at various thresholds; the optimal threshold is at the intersection of precision & sensitivity (true positive rate).
 
-The model metrics at the optimal threshold are illustrated by the polygon graph.  It ...
+<table style="width: 55%; margin-left: 100px;">
+    <tr><th style="width: 35%;"></th><th style="width: 35%;"></th></tr>
+    <tr>
+        <td><script id="metrics"
+            url="https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/metrics.json"
+            src="../assets/js/metrics.js" type="text/javascript"></script>
+            <div id="container0004" style="height: 390px; width: 330px;  margin: 0 auto"></div></td>
+        <td><script id="frequencies"
+            url="https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/frequencies.json"
+            src="../assets/js/frequencies.js" type="text/javascript"></script>
+            <div id="container0005" style="height: 390px; width: 330px;  margin: 0 auto"></div></td>
+    </tr>
+</table>
 
-<script id="scores"
-  url="https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/scores.json"
-  src="{{ site.baseurl }}/assets/js/risk/scores.js" type="text/javascript"></script>
-<div id="container0001" style="height: 400px; width: 330px; margin: 0 auto"></div>
-
-<br>
 <br>
 
 ### Of Disaggregates
