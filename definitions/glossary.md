@@ -31,7 +31,7 @@ custom_js:
 
 <dl>
   <dt>Precision</dt>
-  <dd>$\frac{tp}{tp + fp}, \quad [0 \; 1]$<br>positive predictive value</dd>
+  <dd><br>$\frac{tp}{tp + fp}, \quad [0 \; 1]$<br>positive predictive value</dd>
 
   <dt>True Positive Rate</dt>
   <dd>$\frac{tp}{tp + fn}, \quad [0 \; 1]$<br>sensitivity, recall</dd>
