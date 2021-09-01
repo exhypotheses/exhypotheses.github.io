@@ -36,17 +36,17 @@ The loan risk model's metrics & curves
     <tr>
         <td><script id="roc"
             url="https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/metrics.json"
-            src="../assets/js/roc.js" type="text/javascript"></script>
+            src="{{ site.baseurl }}/assets/js/risk/roc.js" type="text/javascript"></script>
             <div id="container0002" style="height: 350px; width: 300px; margin: 0 auto"></div></td>
         <td><script id="ptc"
             url="https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/metrics.json"
-            src="../assets/js/ptc.js" type="text/javascript"></script>
+            src="{{ site.baseurl }}/assets/js/risk/ptc.js" type="text/javascript"></script>
             <div id="container0003" style="height: 350px; width: 300px; margin: 0 auto"></div></td>
     </tr>
     <tr>
         <td><script id="scores"
             url="https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/scores.json"
-            src="../assets/js/scores.js" type="text/javascript"></script>
+            src="{{ site.baseurl }}/assets/js/risk/scores.js" type="text/javascript"></script>
             <div id="container0001" style="height: 350px; width: 300px; margin: 0 auto"></div></td>
         <td></td>
     </tr>
@@ -61,11 +61,11 @@ The metrics at various thresholds; the optimal threshold is at the intersection 
     <tr>
         <td><script id="metrics"
             url="https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/metrics.json"
-            src="../assets/js/metrics.js" type="text/javascript"></script>
+            src="{{ site.baseurl }}/assets/js/risk/metrics.js" type="text/javascript"></script>
             <div id="container0004" style="height: 390px; width: 330px;  margin: 0 auto"></div></td>
         <td><script id="frequencies"
             url="https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/frequencies.json"
-            src="../assets/js/frequencies.js" type="text/javascript"></script>
+            src="{{ site.baseurl }}/assets/js/risk/frequencies.js" type="text/javascript"></script>
             <div id="container0005" style="height: 390px; width: 330px;  margin: 0 auto"></div></td>
     </tr>
 </table>
