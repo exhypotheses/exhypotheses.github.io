@@ -50,7 +50,7 @@ The loan risk model's metrics & curves
 
 <br>
 
-<table style="width: 55%; margin-left: 150px; align-content: center;">
+<table style="width: 55%; align-content: center;">
     <colgroup>
         <col span="1" style="text-align: center;">
     </colgroup>        
