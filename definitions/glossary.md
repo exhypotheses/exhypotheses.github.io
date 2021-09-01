@@ -27,16 +27,12 @@ custom_js:
 
 ---
 
-<dl>
-  <dt>Precision</dt>
-  <dd>$\large \frac{tp}{tp + fp}$$, \; [0 \; 1],\:$ positive predictive value</dd>
-
-  <dt>True Positive Rate</dt>
-  <dd>$\large \frac{tp}{tp + fn}$$, \; [0 \; 1],\:$ sensitivity, recall</dd>
-
-  <dt>True Negative Rate</dt>
-  <dd>$\large \frac{tn}{tn + fp}$$, \; [0 \; 1],\:$ specificity, selectivity</dd>
-</dl>
+<table style="width: 45%; text-align: left; border: 0px; float: left">
+  <tr><th style="width:20%">term</th><th>definition</th></tr>
+  <tr><td>Precision</td><td>$\large \frac{tp}{tp + fp}$$, \; [0 \; 1],\:$ positive predictive value</td></tr>
+  <tr><td>True Positive Rate</td><td>$\large \frac{tp}{tp + fn}$$, \; [0 \; 1],\:$ sensitivity, recall</td></tr>
+  <tr><td>True Negative Rate</td><td>$\large \frac{tn}{tn + fp}$$, \; [0 \; 1],\:$ specificity, selectivity</td></tr>
+</table>
 
 <br>
 <br>
