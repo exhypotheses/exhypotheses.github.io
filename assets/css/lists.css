@@ -1,17 +1,18 @@
 dl {
     display: block;
     margin-left: 10px;
-    font-size: 13px;
+    font-size: 15px;
 }
 
-/**
+
 dt {
-    display: inline-block;
+    display: block;
+    clear: both;
     font-weight: bold;
     margin-top: 10px;
     margin-left: 25px;
 }
-*/
+
 
 /**
 dd {
