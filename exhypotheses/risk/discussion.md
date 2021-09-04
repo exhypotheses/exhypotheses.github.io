@@ -59,17 +59,11 @@ The loan risk model's metrics
 
 <br>
 
-<table style="width: 55%; align-content: center;">
-    <colgroup>
-        <col span="1" style="text-align: center;">
-    </colgroup>        
-    <tr>
-        <td><script id="scores"
-            url="https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/scores.json"
-            src="{{ site.baseurl }}/assets/js/risk/scores.js" type="text/javascript"></script>
-            <div id="container0001" style="height: 350px; width: 300px; margin: 0 auto"></div></td>
-    </tr>
-</table>
+<script id="scores"
+  url="https://raw.githubusercontent.com/exhypotheses/risk/develop/warehouse/evaluations/model/scores.json"
+  src="{{ site.baseurl }}/assets/js/risk/scores.js" type="text/javascript">
+</script>
+<div id="container0001" style="height: 350px; width: 300px; margin: 0 auto"></div>
 
 <br>
 <br>
