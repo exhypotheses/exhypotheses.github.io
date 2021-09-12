@@ -29,6 +29,15 @@ custom_js:
 
 ## Glossary
 
+Later, add annotations w.r.t.
+
+* $tpr$ = $\large \frac{tp}{tp + fn}$ = $1 - fnr$
+* $fnr$ = $\large \frac{fn}{tp + fn}$ = $1 - tpr$
+* $fpr$ = $\large \frac{fp}{fp + tn}$ = $1 - tnr$
+* $tnr$ = $\large \frac{tn}{fp + tn}$ = $1 - fpr$
+
+<br>
+
 <table style="width: 65%;font-size: 65%;text-align: left;">
   <colGroup>
       <col style="width: 15%">
