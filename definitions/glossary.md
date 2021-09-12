@@ -33,13 +33,12 @@ Later, add annotations w.r.t.
 
 <div style="margin-left: 60px">
   <ul>
-    <li>$tpr$ = $\large \frac{tp}{tp + fn}$ = $1 - fnr$</li>
-    <li>$fnr$ = $\large \frac{fn}{tp + fn}$ = $1 - tpr$</li>
+    <li>$\small tpr$ = $\large \frac{tp}{tp + fn}$ = $\small 1 - fnr$</li>
+    <li>$\small fnr$ = $\large \frac{fn}{tp + fn}$ = $\small 1 - tpr$</li>
+    <li>$\small fpr$ = $\large \frac{fp}{fp + tn}$ = $\small 1 - tnr$</li>
+    <li>$\small tnr$ = $\large \frac{tn}{fp + tn}$ = $\small 1 - fpr$</li>
   </ul>
 </div>
-
-* $fpr$ = $\large \frac{fp}{fp + tn}$ = $1 - tnr$
-* $tnr$ = $\large \frac{tn}{fp + tn}$ = $1 - fpr$
 
 <br>
 
