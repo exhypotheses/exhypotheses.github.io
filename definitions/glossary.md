@@ -31,8 +31,11 @@ custom_js:
 
 Later, add annotations w.r.t.
 
-* $tpr$ = $\large \frac{tp}{tp + fn}$ = $1 - fnr$
-* $fnr$ = $\large \frac{fn}{tp + fn}$ = $1 - tpr$
+<ul>
+  <li>$tpr$ = $\large \frac{tp}{tp + fn}$ = $1 - fnr$</li>
+  <li>$fnr$ = $\large \frac{fn}{tp + fn}$ = $1 - tpr$</li>
+</ul>
+
 * $fpr$ = $\large \frac{fp}{fp + tn}$ = $1 - tnr$
 * $tnr$ = $\large \frac{tn}{fp + tn}$ = $1 - fpr$
 
