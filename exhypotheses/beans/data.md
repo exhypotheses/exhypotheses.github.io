@@ -2,7 +2,7 @@
 layout: default
 title: Data
 parent: Dry Beans
-grand_parent: Projects
+grand_parent: Cases
 nav_order: 1
 custom_js:
 - latex
