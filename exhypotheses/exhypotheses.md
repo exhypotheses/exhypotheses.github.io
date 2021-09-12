@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects
+title: Cases
 nav_order: 2
 description: "... focused on ..."
 has_children: true
