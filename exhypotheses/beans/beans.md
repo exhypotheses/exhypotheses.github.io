@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Dry Beans
-parent: Projects
+parent: Cases
 nav_order: 3
 has_children: true
 custom_css:
