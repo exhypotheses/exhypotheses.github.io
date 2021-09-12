@@ -31,12 +31,12 @@ custom_js:
 
 Later, add annotations w.r.t.
 
-<p style="margin-left: 60px">
+<div style="margin-left: 60px">
   <ul>
     <li>$tpr$ = $\large \frac{tp}{tp + fn}$ = $1 - fnr$</li>
     <li>$fnr$ = $\large \frac{fn}{tp + fn}$ = $1 - tpr$</li>
   </ul>
-</p>
+</div>
 
 * $fpr$ = $\large \frac{fp}{fp + tn}$ = $1 - tnr$
 * $tnr$ = $\large \frac{tn}{fp + tn}$ = $1 - fpr$
