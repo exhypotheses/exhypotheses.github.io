@@ -27,11 +27,22 @@ custom_js:
 
 ---
 
-<table style="width: 45%; text-align: left; border: 0px; float: left">
-  <tr><th style="width:20%">term</th><th>definition</th></tr>
-  <tr><td>Precision</td><td>$\large \frac{tp}{tp + fp}$$, \; [0 \; 1],\:$ positive predictive value</td></tr>
-  <tr><td>True Positive Rate</td><td>$\large \frac{tp}{tp + fn}$$, \; [0 \; 1],\:$ sensitivity, recall</td></tr>
-  <tr><td>True Negative Rate</td><td>$\large \frac{tn}{tn + fp}$$, \; [0 \; 1],\:$ specificity, selectivity</td></tr>
+## Glossary
+
+<table style="width: 65%;font-size: 65%;text-align: left;">
+  {% for row in site.data.definitions.glossary %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
 </table>
 
 <br>
