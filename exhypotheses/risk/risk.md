@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Risk
-parent: Projects
+parent: Cases
 nav_order: 4
 has_children: true
 custom_css:
