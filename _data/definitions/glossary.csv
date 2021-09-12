@@ -5,5 +5,5 @@
 "$fn$","","false negative<br>miss","$[0 \; \infty)$"
 "precision","$\large \frac{tp}{tp + fp}$","precision<br>positive predictive value","$[0 \; 1]$"
 "true positive rate","$\large \frac{tp}{tp + fn}$","true positive rate<br>sensitivity<br>recall","$[0 \; 1]$"
-"true negative rate","$\large \frac{tn}{tn + fp}$","true negative rate<br>specificity<br>selectivity","$[0 \; 1]$"
-"false positive rate","$\large \frac{fp}{fp + tn} \equiv 1 - tnr$","false positive rate<br>false alarm rate<br>fall-out","$[0 \; 1]$"
+"true negative rate, $\small tnr$","$\large \frac{tn}{tn + fp}$","true negative rate<br>specificity<br>selectivity","$[0 \; 1]$"
+"false positive rate","$\large \frac{fp}{fp + tn}$ $\equiv$ $\small 1 - tnr$","false positive rate<br>false alarm rate<br>fall-out","$[0 \; 1]$"
