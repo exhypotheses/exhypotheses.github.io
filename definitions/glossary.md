@@ -45,8 +45,8 @@ Later, add annotations w.r.t.
   <colGroup>
       <col style="width: 15%">
       <col style="width: 55%">
-      <col style="width: 19%">
-      <col style="width: 11%">
+      <col style="width: 20%">
+      <col style="width: 10%">
   </colGroup>
   {% for row in site.data.definitions.glossary %}
     {% if forloop.first %}
