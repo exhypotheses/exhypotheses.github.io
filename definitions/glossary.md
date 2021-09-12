@@ -30,6 +30,12 @@ custom_js:
 ## Glossary
 
 <table style="width: 65%;font-size: 65%;text-align: left;">
+  <colGroup>
+      <col style="width: 15%">
+      <col style="width: 55%">
+      <col style="width: 15%">
+      <col style="width: 15%">
+  </colGroup>
   {% for row in site.data.definitions.glossary %}
     {% if forloop.first %}
     <tr>
