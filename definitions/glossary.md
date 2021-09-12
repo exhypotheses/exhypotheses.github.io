@@ -43,12 +43,12 @@ Later, add annotations w.r.t.
 <br>
 
 <table style="width: 65%;font-size: 65%;text-align: left;">
-  <colGroup>
+  <colgroup>
       <col style="width: 15%">
       <col style="width: 55%">
       <col style="width: 20%">
       <col style="width: 10%">
-  </colGroup>
+  </colgroup>
   {% for row in site.data.definitions.glossary %}
     {% if forloop.first %}
     <tr>
