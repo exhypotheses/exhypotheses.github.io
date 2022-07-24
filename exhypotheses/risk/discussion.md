@@ -96,11 +96,6 @@ The metrics at various thresholds; the optimal threshold is at the intersection 
 <br>
 <br>
 
-### Of Disaggregates
-
-The target variable, reasonable [risk], has 2 unique elements: 1 (reasonable), 0 (unreasonable).  The
-performance of the model w.r.t. each element is outlined in the ...
-
 <br>
 <br>
 <br>
