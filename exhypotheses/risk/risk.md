@@ -2,7 +2,7 @@
 layout: default
 title: Risk
 parent: Cases
-nav_order: 4
+nav_order: 3
 has_children: true
 custom_css:
 - tooltips
