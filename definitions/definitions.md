@@ -11,8 +11,3 @@ permalink: /definitions
 
 Definitions of terms
 {: .fs-6 .fw-300 }
-
-<br>
-<br>
-<br>
-<br>
