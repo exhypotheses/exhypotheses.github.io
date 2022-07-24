@@ -52,8 +52,6 @@ The loan risk model's curves
 
 <br>
 <br>
-<br>
-<br>
 
 The loan risk model's metrics
 
@@ -65,8 +63,6 @@ The loan risk model's metrics
 </script>
 <div id="container0001" style="height: 350px; width: 300px; margin: 0 auto"></div>
 
-<br>
-<br>
 <br>
 <br>
 
