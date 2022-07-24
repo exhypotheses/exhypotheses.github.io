@@ -29,17 +29,6 @@ custom_js:
 
 ## Glossary
 
-Later, add annotations w.r.t.
-
-<div style="margin-left: 60px">
-  <ul>
-    <li>$\small tpr$ = $\large \frac{tp}{tp + fn}$ = $\small 1 - fnr$</li>
-    <li>$\small fnr$ = $\large \frac{fn}{tp + fn}$ = $\small 1 - tpr$</li>
-    <li>$\small fpr$ = $\large \frac{fp}{fp + tn}$ = $\small 1 - tnr$</li>
-    <li>$\small tnr$ = $\large \frac{tn}{fp + tn}$ = $\small 1 - fpr$</li>
-  </ul>
-</div>
-
 <br>
 
 <table style="width: 65%;font-size: 65%;text-align: left;">
@@ -63,6 +52,22 @@ Later, add annotations w.r.t.
     {% endtablerow %}
   {% endfor %}
 </table>
+
+<br>
+
+<div style="margin-left: 60px">
+  <ul>
+    <li>$\small tpr$ = $\large \frac{tp}{tp + fn}$ = $\small 1 - fnr$</li>
+    <li>$\small fnr$ = $\large \frac{fn}{tp + fn}$ = $\small 1 - tpr$</li>
+    <li>$\small fpr$ = $\large \frac{fp}{fp + tn}$ = $\small 1 - tnr$</li>
+    <li>$\small tnr$ = $\large \frac{tn}{fp + tn}$ = $\small 1 - fpr$</li>
+  </ul>
+</div>
+
+<br>
+<br>
+<br>
+<br>
 
 <br>
 <br>
