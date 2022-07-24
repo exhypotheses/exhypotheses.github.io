@@ -16,7 +16,7 @@ Audit Pamphlets
 
 <br>
 
-With time, these pages will outline a set of *audit pamphlets* that consist of a mix of model cards, data sheets, expert/auditor summaries, and other items.
+An exploration of *audit pamphlets*; exploring model cards, data sheets, expert/auditor summary templates, and other items.
 
 <br>
 <br>
