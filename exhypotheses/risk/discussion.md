@@ -3,7 +3,7 @@ layout: default
 title: Discussion
 parent: Risk
 grand_parent: Cases
-nav_order: 2
+nav_order: 1
 external_css:
 - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min
 custom_css:
