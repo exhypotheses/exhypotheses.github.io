@@ -3,7 +3,7 @@ layout: default
 title: Data
 parent: Risk
 grand_parent: Cases
-nav_order: 1
+nav_order: 2
 custom_js:
 - latex
 ---
@@ -22,25 +22,13 @@ custom_js:
 ---
 
 
-## Introduction
-<br>
-<div>
-      <p>The $p_{value}$ of each categorical field & target hypotheses ... $\chi^{2}$</p>
-</div>
-
-<br>
-<br>
-
-## Metadata
-<br>
-This section focuses on the data source, licence, # of instances, etc
-
-<br>
-<br>
-
 ## Definitions
+
 <br>
-None of the fields is nullable.
+
+The variables of the loan risk data set; none of the fields is nullable.
+
+<br>
 
 <table style="width: 65%;font-size: 65%;text-align: left;">
   {% for row in site.data.exhypotheses.risk.definitions %}
@@ -61,9 +49,11 @@ None of the fields is nullable.
 <br>
 <br>
 
-## Sample
+<br>
+<br>
 
 <br>
 <br>
+
 <br>
 <br>
