@@ -2,7 +2,6 @@
 layout: default
 title: Cases
 nav_order: 2
-description: "... focused on ..."
 has_children: true
 permalink: /exhypotheses
 custom_css:
@@ -14,8 +13,3 @@ custom_css:
 
 Augmenting audits.
 {: .fs-6 .fw-300 }
-
-<br>
-<br>
-<br>
-<br>
