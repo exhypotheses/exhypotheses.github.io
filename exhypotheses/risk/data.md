@@ -24,8 +24,6 @@ custom_js:
 
 ## Definitions
 
-<br>
-
 The variables of the loan risk data set; none of the fields is nullable.
 
 <br>
