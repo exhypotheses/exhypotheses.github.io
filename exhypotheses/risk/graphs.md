@@ -25,13 +25,15 @@ custom_js:
 1. TOC
 {:toc}
 
+<br>
+
 ---
 
 These graphs illustrate the evaluation metrics of a binary classification model.  The model is for a loan risk 
-binary classification problem; good 1, bad 0.  The values assigned by the model, to a test data set, are not 
-exactly 0 or 1.  Rather, they are values within the range $[0 \; 1]$.  This leads to the question, beyond what
-point within the range is a value equivalent to one?  Herein the point, known as the threshold, is the point 
-at which precision & sensitivity (true positive rate) curves intersect.
+binary classification problem; good $1$, bad $0$.  The values assigned by the model, to a test data set, are not 
+exactly $0$ or $1$.  Rather, they are values within the range $[0 \; 1]$.  This leads to the question, beyond what
+point within the range is a value equivalent to $1$?  Herein, the point, i.e., the threshold, is the point 
+at which [precision & sensitivity curves intersect](#the-binary-classification-metrics-curves).
 
 Note, the graphs apply to any binary classification problem.
 
