@@ -14,7 +14,7 @@ custom_js:
 - latex
 ---
 
-# A sample of graphs for a classification model evaluation
+# A sample of graphs for evaluating a binary classification model
 {: .no_toc }
 
 <br>
