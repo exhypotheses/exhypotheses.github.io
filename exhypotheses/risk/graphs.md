@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Discussion
+title: Graphs
 parent: Risk
 grand_parent: Cases
 nav_order: 1
@@ -14,7 +14,7 @@ custom_js:
 - latex
 ---
 
-# Discussion
+# A sample of graphs for a classification model evaluation
 {: .no_toc }
 
 <br>
@@ -27,9 +27,19 @@ custom_js:
 
 ---
 
-### Introduction
+These graphs illustrate the evaluation metrics of a binary classification model.  The model is for a loan risk 
+binary classification problem; good 1, bad 0.  The values assigned by the model, to a test data set, are not 
+exactly 0 or 1.  Rather, they are values within the range $[0 \; 1]$.  This leads to the question, beyond what
+point within the range is a value equivalent to one?  Herein the point, known as the threshold, is the point 
+at which precision & sensitivity (true positive rate) curves intersect.
 
-The loan risk model's curves
+Note, the graphs apply to any binary classification problem.
+
+<br>
+
+### ROC & Precision/Sensitivity Curves
+
+The receiver operating and precision/sensitivity curves.
 
 <br>
 
@@ -53,7 +63,9 @@ The loan risk model's curves
 <br>
 <br>
 
-The loan risk model's metrics
+### The Evaluation Metrics at the Threshold
+
+The range of each metric is $[0 \; 1]$; $1$ is the optimal value in each case.  <b>The tooltips per dot are upcoming</b>.
 
 <br>
 
@@ -65,6 +77,8 @@ The loan risk model's metrics
 
 <br>
 <br>
+
+### The Binary Classification Metrics Curves
 
 The metrics at various thresholds; the optimal threshold is at the intersection of precision & sensitivity (true positive rate).
 
